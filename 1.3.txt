@@ -465,7 +465,7 @@
         document.getElementById('result').style.display = "block";
         document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
 
-        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyMlrJnMVTerSgFU3xqFjlTik_FGX9-yLcPCy7qsisoqBc9NhQvWI9BKiDjJQREaSei/exec";
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzzxoJgx7AoK6UH6CjFxYPZmKTI3K2XFnrvyMqdqWSjlYzDks9mnImwqCwh6gbzzK0AaQ/exec";
 
         try {
             await fetch(SCRIPT_URL, {
